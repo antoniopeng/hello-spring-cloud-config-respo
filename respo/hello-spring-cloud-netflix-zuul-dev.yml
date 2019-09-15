@@ -18,8 +18,8 @@ eureka:
 
 zuul:
   routes:
-    api-feign:
-      path: /admin/feign/**
+    api-admin:
+      path: /admin/**
       serviceId: hello-spring-cloud-netflix-web-admin-feign
 
 management:
