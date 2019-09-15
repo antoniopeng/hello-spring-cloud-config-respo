@@ -15,7 +15,7 @@ spring:
       content-type: text/html
 
 server:
-  port: 8766
+  port: 8601
 
 feign:
   hystrix:

@@ -19,8 +19,7 @@ spring:
       driver-class-name: com.mysql.jdbc.Driver
 
 server:
-  port: 8500
-  # port: 8501
+  port: 8501
 
 mybatis:
   type-aliases-package: com.antoniopeng.hello.spring.cloud.netflix.service.admin.domain
