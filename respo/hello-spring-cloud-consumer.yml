@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: hello-spring-cloud-consumer
+  boot:
+    admin:
+      client:
+        url: http://localhost:8500
+  zipkin:
+    base-url: http://localhost:8400
+  thymeleaf:
+    cache: false
+    mode: LEGACYHTML5
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+
+server:
+  port: 8200
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8000/eureka/
+
+feign:
+  hystrix:
+    enabled: true
